@@ -1,5 +1,9 @@
 # Movie App
 
+![Next.js](https://img.shields.io/badge/Next.js-14-black)
+![React](https://img.shields.io/badge/React-19-blue)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-38B2AC)
+
 A modern movie discovery application built with Next.js and TMDB API.
 
 ## Technologies Used

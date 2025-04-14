@@ -1,9 +1,23 @@
+# Next.js specific files
+next.config.* linguist-language=JavaScript
+*.next/* linguist-generated=true
+
+# Source files
 *.js linguist-language=JavaScript
-*.jsx linguist-language=JavaScript
+*.jsx linguist-language=React
 *.ts linguist-language=TypeScript
-*.tsx linguist-language=TypeScript
+*.tsx linguist-language=React
 *.css linguist-language=CSS
 *.html linguist-language=HTML
 
-# Next.js specific files
-next.config.* linguist-language=JavaScript 
+# Documentation
+*.md linguist-documentation
+*.txt linguist-documentation
+
+# Build output
+.next/* linguist-generated=true
+out/* linguist-generated=true
+build/* linguist-generated=true
+
+# Dependencies
+node_modules/* linguist-vendored 
