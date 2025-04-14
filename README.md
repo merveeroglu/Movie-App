@@ -1,4 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Movie App
+
+A modern movie discovery application built with Next.js and TMDB API.
+
+## Technologies Used
+
+- **Frontend Framework:** Next.js 14
+- **Programming Language:** JavaScript
+- **Styling:** Tailwind CSS
+- **API Integration:** TMDB API
+- **State Management:** React Hooks
+- **Routing:** Next.js App Router
+- **UI Components:** Custom Components
+- **HTTP Client:** Fetch API
+
+## Features
+
+- Browse popular movies
+- View now playing movies
+- Check upcoming releases
+- Responsive design
+- Dark/Light mode support
+- Movie details page
+- Dynamic routing
 
 ## Getting Started
 
@@ -8,24 +31,19 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [TMDB API Documentation](https://developers.themoviedb.org/3)
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
